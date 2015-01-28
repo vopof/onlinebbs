@@ -1,20 +1,12 @@
 <?php
-$dsn ='mysql:dbname=LAA0433175-f6h7zi; host=mysql011.phy.lolipop.lan';
-$user = 'LAA0433175';
-$password = 'l7xgY2Tf';
-$dbh = new PDO($dsn,$user,$password);
-$dbh->query('SET NAMES utf8');
+
 
 //データーベースに接続
 	if (!$link){
 	die('データベースに接続できません：'.mysql_error());
 	}
 
-//データベースを選択する
 
-// $sql = 'SELECT*FROM online_bbs WHERE1';
-// $stmt = $dbh->prepare($sql); 
-// $stmt -> execute();
 
 
 //データベースを選択する
